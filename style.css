@@ -1,0 +1,34 @@
+@import url('./app.css');
+@import url('./form.css');
+@import url('./contact.css');
+@import url('./sucess.css');
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box ;
+}
+  
+  :root {
+    --text: #3e3e3e;
+  
+    --white: #F2F2F2;
+    --cinza: #6e6e6e;
+    --azul: #163E73;
+    --azul-light: #164773;
+    --verde-light:#56BF84;
+  }
+  
+  body, button, a, input {
+    color: var(--text);
+    font: 400 1rem "Open Sans", sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+
+
